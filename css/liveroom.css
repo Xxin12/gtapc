@@ -1,0 +1,36 @@
+* { 
+/*覆盖边距为0*/
+padding:0; 
+margin:0; 
+border:0; 
+} 
+.header {
+/*顶部固定悬浮导航栏参数*/ 
+position:fixed; 
+z-index:1; /*顶层级效果*/
+top:0; 
+width:100%; 
+background-color:#66ccff; 
+} 
+.footer{
+clear: both;
+    background: #1895D4;
+    color: #929292;
+    padding: 0 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2.5em;
+    text-shadow: none;
+	text-decoration:none; 
+	}
+.live
+{
+	padding: 50px 20px;
+	text-align: center;
+	position:relative;
+	left:-50px;
+}
+a:hover {
+    background: rgba(255,152,0,0.1);
+    color: #f08f00;
+}
